@@ -1,0 +1,27 @@
+# Keep: .dll, .lib, .cpp, .c, .h, .bat, /res
+
+# Visual Studio nonsense
+*.exe
+*.exp
+*.ilk
+*.pdb
+*.suo
+*.sdf
+*.sln
+*.obj
+*.opendb
+*.db
+.vs/
+Debug/
+res/test/
+
+# Linux nonsense
+*.out
+
+# My nonsense
+*.sublime-workspace
+
+# Imgui nonsense
+imgui.ini
+bin/win/imgui.ini
+bin/linux/imgui.ini
