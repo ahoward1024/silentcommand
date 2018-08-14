@@ -7,7 +7,7 @@ int CALLBACK WinMain(HINSTANCE h, HINSTANCE p, LPSTR cmd, int show) {
 	shex.fMask = SEE_MASK_NOCLOSEPROCESS;
 	shex.hwnd = 0;
 	shex.lpFile = _T("\"C:\\SCRIPTS\\nircmdc.exe\"");
-	shex.lpParameters = _T("setdefaultsounddevice \"Audio Device\"");
+	shex.lpParameters = _T("setdefaultsounddevice \"Aux 1-2\"");
 	shex.lpDirectory = 0;
 	shex.nShow = SW_HIDE;
 	shex.hInstApp = 0;
