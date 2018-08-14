@@ -23,5 +23,7 @@ res/test/
 
 # Imgui nonsense
 imgui.ini
-bin/win/imgui.ini
-bin/linux/imgui.ini
+bin/imgui.ini
+
+# Generation nonsense
+bin/gen/
